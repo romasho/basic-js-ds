@@ -20,6 +20,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  */
 
 module.exports = function removeKFromList(l, k) {
+  
   let linkedList = l
   if (linkedList.value === k) {
     linkedList = linkedList.next
